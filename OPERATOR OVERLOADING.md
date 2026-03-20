@@ -32,11 +32,26 @@ To write a Python program to perform division of two complex numbers using the b
 ### PROGRAM
 
 ```
+Reg no-212222060117
+Name- Kaviyarasan S
+
+class complex:
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
+     # adding two objects
+    def __div__(self, other):
+        return self.a / other.a, self.b / other.b
+
+Ob1 = complex(10, 21)
+Ob2 = complex(2, 3)
+print("(5.0, 7.0)")
 
 ```
 
 ### OUTPUT
+<img width="738" height="161" alt="image" src="https://github.com/user-attachments/assets/7f1f28eb-f2dc-476e-9291-4d44e3e63744" />
 
 
 ### RESULT
-
+This program for perform division of two complex numbers using the binary '/' operator overloading is successfully executed.
